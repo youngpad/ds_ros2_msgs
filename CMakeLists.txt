@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(ds_msgs)
+project(ds_ros2_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -25,6 +25,10 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrajectorySetpoint.msg"
+  "msg/OffboardControlMode.msg"
+  "msg/VehicleCommand.msg"
+  "msg/VehicleControlMode.msg"
+  "msg/Timesync.msg"
  )
 
 if(BUILD_TESTING)
