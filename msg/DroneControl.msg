@@ -1,2 +1,2 @@
 bool arm
-bool offoard_control
+bool offboard_control
