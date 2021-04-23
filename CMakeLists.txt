@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VehicleCommand.msg"
   "msg/VehicleControlMode.msg"
   "msg/Timesync.msg"
+  "msg/DroneControl.msg"
  )
 
 if(BUILD_TESTING)
