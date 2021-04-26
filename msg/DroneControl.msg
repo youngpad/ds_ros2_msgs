@@ -1,2 +1,2 @@
 bool arm
-bool offboard_control
+bool launch
