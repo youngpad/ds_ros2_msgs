@@ -1,4 +1,4 @@
 uint16 drone
 bool arm
-bool launch
+bool land
 bool switch_px
